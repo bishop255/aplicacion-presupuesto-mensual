@@ -134,28 +134,6 @@ Ese archivo no debe subirse a GitHub porque contiene datos personales. Esta incl
 
 ## Subir a GitHub
 
-Archivos que si conviene subir:
-
-- Codigo fuente.
-- `assets/`.
-- `scripts/`.
-- `README.md`.
-- `.gitignore`.
-- `LICENSE`.
-- `requirements.txt`.
-- `requirements-build.txt`.
-- `build_exe.bat`.
-- `verificar_python.bat`.
-- Carpeta `docs/`.
-
-Archivos que no conviene subir:
-
-- `presupuesto.db`.
-- `.venv-*`.
-- `build/`.
-- `dist/`.
-- `__pycache__/`.
-
 Para compartir el `.exe`, usa la seccion `Releases` de GitHub.
 
 Guia paso a paso:
