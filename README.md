@@ -1,6 +1,29 @@
-# Presupuesto Mensual
+<p align="center">
+  <img src="assets/app_icon.png" alt="Logo Presupuesto Mensual" width="120" />
+</p>
 
-Aplicacion de escritorio para gestionar sueldo mensual, gastos fijos, ocio y ahorro. Nacio como reemplazo de una planilla Excel personal, pero quedo organizada como proyecto Python listo para evolucionar y compartir.
+<h1 align="center">Presupuesto Mensual</h1>
+
+<p align="center">
+  Aplicacion de escritorio para gestionar sueldo mensual, gastos fijos, ocio y ahorro de forma simple, visual y local.
+</p>
+
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.11%2B-2563eb?style=for-the-badge&logo=python&logoColor=white">
+  <img alt="Tkinter" src="https://img.shields.io/badge/Tkinter-Desktop-0891b2?style=for-the-badge">
+  <img alt="SQLite" src="https://img.shields.io/badge/SQLite-Local-22c55e?style=for-the-badge&logo=sqlite&logoColor=white">
+  <img alt="Windows" src="https://img.shields.io/badge/Windows-EXE-7c3aed?style=for-the-badge&logo=windows&logoColor=white">
+</p>
+
+---
+
+## Descripcion del Proyecto
+
+Presupuesto Mensual nacio como reemplazo de una planilla Excel personal para administrar ingresos, gastos fijos, ocio y ahorro mes a mes.
+
+La aplicacion permite registrar sueldo mensual variable, marcar gastos fijos como pagados, anotar gastos de ocio diarios y llevar un control del ahorro mensual y acumulado anual. Todo funciona de manera local con SQLite, sin servidor ni conexion a internet.
+
+El objetivo es tener una herramienta sencilla, ordenada y visual para revisar rapidamente cuanto dinero queda disponible, cuanto se ha gastado y como avanza el ahorro.
 
 ## Caracteristicas
 
