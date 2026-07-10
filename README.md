@@ -122,6 +122,7 @@ Archivos que si conviene subir:
 - `requirements.txt`.
 - `requirements-build.txt`.
 - `build_exe.bat`.
+- `subir_github.bat`.
 - `verificar_python.bat`.
 - Carpeta `docs/`.
 
