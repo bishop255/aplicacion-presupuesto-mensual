@@ -1,0 +1,16 @@
+[project]
+name = "presupuesto-mensual"
+version = "1.0.0"
+description = "Aplicacion de escritorio para gestionar presupuesto mensual, gastos fijos, ocio y ahorro."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [
+  { name = "Andres Moreno" }
+]
+
+[project.optional-dependencies]
+build = [
+  "pillow>=10.0",
+  "pyinstaller>=6.0"
+]

@@ -1,0 +1,23 @@
+name: Python check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  compile:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Compile source
+        run: |
+          python -m py_compile presupuesto_app.py presupuesto/app.py presupuesto/store.py presupuesto/utils.py presupuesto/dialogs.py presupuesto/constants.py scripts/generate_icon.py
+

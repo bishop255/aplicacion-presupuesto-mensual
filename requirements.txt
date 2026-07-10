@@ -1,0 +1,3 @@
+# La aplicacion usa solo librerias incluidas con Python.
+# Para ejecutarla necesitas Python 3.11+ con Tkinter.
+

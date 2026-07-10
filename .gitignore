@@ -1,0 +1,34 @@
+# Datos personales y base local
+presupuesto.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Entornos locales
+.venv/
+.venv-*/
+venv/
+env/
+
+# Archivos generados
+build/
+dist/
+*.spec
+*.log
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos locales de herramientas
+.agents/
+.codex/
+.git-publish/
+tools/
+
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
