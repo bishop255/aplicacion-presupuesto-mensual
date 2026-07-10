@@ -109,6 +109,43 @@ Ese archivo no debe subirse a GitHub porque contiene datos personales. Esta incl
 - `docs/SUBIR_A_GITHUB.md`: guia para publicar el proyecto.
 - `docs/CHECKLIST_PUBLICACION.md`: checklist antes de subirlo.
 
+## Subir a GitHub
+
+Archivos que si conviene subir:
+
+- Codigo fuente.
+- `assets/`.
+- `scripts/`.
+- `README.md`.
+- `.gitignore`.
+- `LICENSE`.
+- `requirements.txt`.
+- `requirements-build.txt`.
+- `build_exe.bat`.
+- `verificar_python.bat`.
+- Carpeta `docs/`.
+
+Archivos que no conviene subir:
+
+- `presupuesto.db`.
+- `.venv-*`.
+- `build/`.
+- `dist/`.
+- `__pycache__/`.
+
+Para compartir el `.exe`, usa la seccion `Releases` de GitHub.
+
+Guia paso a paso:
+
+```text
+docs/SUBIR_A_GITHUB.md
+```
+
+Checklist:
+
+```text
+docs/CHECKLIST_PUBLICACION.md
+```
 
 ## Licencia
 

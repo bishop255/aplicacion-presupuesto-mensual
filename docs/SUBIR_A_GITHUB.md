@@ -59,19 +59,3 @@ dist/PresupuestoMensual.exe
 ```
 
 Asi el repositorio queda limpio y la gente puede descargar la app lista.
-
-## Opcion preparada en esta carpeta
-
-Este proyecto tambien incluye:
-
-```text
-subir_github.bat
-```
-
-Ese archivo usa el commit preparado localmente y lo sube a:
-
-```text
-https://github.com/bishop255/aplicacion-presupuesto-mensual
-```
-
-Si Git pide login, completa la ventana de GitHub y vuelve a ejecutar el archivo.
